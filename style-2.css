@@ -1,0 +1,32 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+        * {
+            box-sizing: border-box;
+        }
+         body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+         }
+        .box {
+            border: 15px solid #000;
+            padding: 30px;
+
+            width: 50vw;
+            height: 50vh;
+
+            /* vh: viewpoint height
+            vw: viewpoint weight */
+
+            min-height: 200px;
+            max-height: 300px;
+
+            min-width: 400px;
+            max-width: 600px;
+
+            color: purple;
+            text-align: justify;
+
+            text-transform: capitalize;       
+        }
+   
